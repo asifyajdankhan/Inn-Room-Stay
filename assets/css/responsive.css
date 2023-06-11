@@ -1,0 +1,132 @@
+/* mobile CSS */
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 767px) {
+  .SortBy-Text-Wrapper {
+    display: block !important;
+    flex-direction: column-reverse !important;
+  }
+  .search-location-button {
+    width: 95% !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .search-button {
+    width: 80px;
+    height: 40px;
+  }
+  .Price-form-button {
+    width: 100% !important;
+  }
+  .sortby-text {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .Card-Body-Right {
+    margin-left: -14px !important;
+  }
+  .First-card-Image {
+    width: 100% !important;
+  }
+  .Star-Rating-wrapper {
+    top: 4% !important;
+  }
+  .Star-Rating-wrapper-second {
+    top: 53% !important;
+  }
+}
+
+/* Tab CSS */
+@media (min-width: 768px) and (max-width: 991px) {
+  .search-location-button {
+    width: 100% !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin: auto !important;
+  }
+  .search-button {
+    width: 80px;
+    height: 40px;
+  }
+  .Price-form-button {
+    width: 100% !important;
+  }
+  .found-text {
+    font-size: 35px !important;
+    width: 250px !important;
+    height: 41px;
+  }
+  .sortby-text {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .found-text {
+    font-size: 27px !important;
+    width: 166px !important;
+  }
+  .search-location-button {
+    width: 251px !important;
+    margin-top: 10px !important;
+  }
+  .search-button {
+    width: 80% !important;
+    margin-top: 10px;
+  }
+  .SortBy-Text-Wrapper {
+    display: block !important;
+    flex-direction: column-reverse !important;
+  }
+  .Arunachal-button {
+    width: 180px !important;
+  }
+  .Sub-Location-One {
+    width: 180px !important;
+  }
+  .first-card-img-banner {
+    width: 200px !important;
+  }
+  .filters-card-wrapper {
+    width: 100% !important;
+  }
+  .Button-Group-Card {
+    width: 100% !important;
+  }
+  .card-button {
+    width: 100px !important;
+  }
+}
+
+/* Small Screen Desktop */
+@media (min-width: 992px) and (max-width: 1024px) {
+  .search-location-button {
+    width: 100% !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin: auto !important;
+  }
+  .search-button {
+    width: 80px;
+    height: 40px;
+  }
+  .Price-form-button {
+    width: 100% !important;
+  }
+  .found-text {
+    font-size: 35px !important;
+    width: 250px !important;
+    height: 41px;
+  }
+  .sortby-text {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
+
+/* Screen Desktop */
+@media (max-width: 1280px) {
+}
